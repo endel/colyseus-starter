@@ -1,6 +1,6 @@
 {
   "name": "colyseus-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Colyseus Server - Minimal example",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "clock-timer.js": "^1.0.0",
-    "colyseus": "^0.3.0",
+    "colyseus": "^0.4.0",
     "dotenv": "^2.0.0",
     "express": "^4.13.4"
   },
