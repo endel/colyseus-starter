@@ -52,8 +52,8 @@ class ChatRoom extends Room {
   }
 
   onLeave (client) {
-    console.log(client.id, "leaved ChatRoom")
-    this.state.messages.push(`${ client.id } leaved.`)
+    console.log(client.id, "left ChatRoom")
+    this.state.messages.push(`${ client.id } left.`)
   }
 
 }
